@@ -26,6 +26,7 @@ public class DepartmentController {
     @GetMapping("/departments")
     public List<Department> fetchDepartmentList()
     {
+        System.out.println("Hello World");
         return departmentService.fetchDepartmentList();
     }
 
